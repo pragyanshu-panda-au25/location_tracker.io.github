@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://cdn.dribbble.com/users/2344150/screenshots/6719713/globe-animation_dribbble.gif");
+    background-color: #cccccc;
+    display: flexbox;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-left: 90px;
+}
+
+h4 {
+    margin-top: 60px;
+    /* margin-left: 30px; */
+}
+
+button {
+    color: blueviolet;
+    border-radius: 15%;
+    size: 20px;
+    color: black;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="5 ; url=map.html">
+    <meta name=" viewport " content="width=device-width, initial-scale=1.0 ">
+    <link rel="stylesheet " href="animation.css ">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Fetching You</h1>
+
+    <div class="loader ">
+        <div class="line one "></div>
+        <div class="line two "></div>
+        <div class="line three "></div>
+        <div class="line four "></div>
+        <div class="line five "></div>
+    </div>
+    <script>
+        let counter = document.querySelector('h1');
+        let count = 1;
+
+        setInterval(() => {
+
+            counter.innerText = count;
+            count++
+
+            if (count > 5) location.replace('map.html')
+
+        }, 1000)
+    </script>
+</body>
+
+</html>
